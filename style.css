@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    background-color: rgb(218, 43, 43);
+}
+
+.navbar{
+    background-color: #212122;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: .8rem;
+}
+
+.logo1{
+    height: 4rem;
+}
+
+.nav-links{
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-items{
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav-items:hover{
+    color: rgb(207, 62, 62);
+    transition: .2s;
+}
+
+.primary-main{
+    background-color: rgb(218, 43, 43);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+h2{
+    color: #e2dfdd;
+    margin-bottom: 40px;
+    font-size: 4rem;
+}
+
+h3{
+    color: #e2dfdd;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem; 
+}
+
+p{
+    font-size: 15px;
+    font-weight: 550;
+    color: #e2dfdd;
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.img-1{
+    height: 390px;
+    margin-left: 30px;
+}
+
+.img-2{
+    height: 200px;
+    margin-right: 50px;
+}
+
+.img-3{
+    height: 370px;
+}
+
+.img-4{
+    height: 370px;
+    margin-left: 40px;
+}
+
+.img-5{
+    height: 400px;
+    margin-right: 50px;
+}
+
+.img-6{
+    height: 400px;
+    margin-left: 40px;
+}
+
+.img-7{
+    height: 400px;
+}
+
+.second-main{
+    background-color: #212122;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1f1f20;
+    flex-direction: row-reverse;
+    padding: 4rem;
+}
+
+.terceary-main{
+    background-color: #212122;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+.gear-2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+.p-gear2{
+    font-size: 15px;
+    color: #212122;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.ul-gear2{
+    list-style: circle;
+    margin: 0px 0px 0px 200px;
+}
+
+.h2-gear2{
+    color: #212122;
+    margin-bottom: 40px;
+    font-size: 4rem;
+}
+
+.li-gear2{
+    font-size: 15px;
+    color: #212122;
+}
+
+.h3-gear2{
+    color: #212122;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.gear-3{
+    background-color: #212122;
+    display: flex;
+    border-bottom: 1px solid #1f1f20;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4rem;
+}
+
+.ul-gear3{
+    list-style: circle;
+    margin: 0px 0px 0px 100px;
+    margin-top: 30px;
+}
+
+.gear-4{
+    background-color: #212122;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem;
+}
+
+
+.ul-gear4{
+    list-style: square;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    margin: 0px 0px 0px 20px;
+}
+
+.li-gear4{
+    font-size: 30px;
+}
+.ul-gear5{
+    list-style: circle;
+    margin: 0px 0px 0px 200px;
+}
+
+li{
+    font-size: 15px;
+    margin-top: 7px;
+    color: #e2dfdd;
+}
+
+.gear-5{
+    background-color: rgb(218, 43, 43);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    background-color: #212122;
+    margin: 0px 40px 0px 40px;
+    display: flex;
+    border-radius: 20px;
+    padding: 4rem;
+}
+
+.button{
+    background-color: rgb(218, 43, 43);
+}
+
+#myBtn{
+    border: none;
+    background-color: #212122;
+    color: #e2dfdd;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  #myBtn:hover {
+    background-color: #0f0f0f;
+    color: #c9c7c6;
+    transition: .3s;
+  }
+
+footer{
+    background-color: #212122;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-footer{
+    display: block;
+    border-top: 1px solid #3F84C2;
+    border-bottom: 1px solid #3F84C2;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.span{
+    margin-top: 15px;
+    color: #c9c7c6;
+}
+
+.a-span{
+    text-decoration: underline;
+    color: rgb(218, 43, 43);
+}
+
+.a-span:hover{
+    color: #e2dfdd;
+}
